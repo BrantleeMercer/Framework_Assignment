@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: 4976cbe608dee5b478df0915e4400895, type: 3}
+        m_Texture: {fileID: 2800000, guid: c54542370b8c3454eb538ba517f23c61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
@@ -98,7 +98,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4976cbe608dee5b478df0915e4400895, type: 3}
+        m_Texture: {fileID: 2800000, guid: c54542370b8c3454eb538ba517f23c61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -110,7 +110,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: bc7aacc036815304e8c26ef9b776bb9c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 52e69ec65ed74b149b81d5601b085394, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapOS:
