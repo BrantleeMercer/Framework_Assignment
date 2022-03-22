@@ -47,7 +47,7 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 4.8
+    m_Value: 0.61
   multiplier:
     m_OverrideState: 1
     m_Value: 1
@@ -74,25 +74,25 @@ MonoBehaviour:
     m_Value: 0
   top:
     m_OverrideState: 1
-    m_Value: {r: 1.2972932, g: 0.86939025, b: 0.427903, a: 1}
+    m_Value: {r: 0.5943396, g: 0.5747152, b: 0.5747152, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
   middle:
     m_OverrideState: 1
-    m_Value: {r: 1.1921569, g: 2.792157, b: 4, a: 1}
+    m_Value: {r: 1.0146359, g: 1.0146359, b: 1.0146359, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
   bottom:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
   gradientDiffusion:
     m_OverrideState: 1
-    m_Value: 3.79
+    m_Value: 40.75
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,15 +168,15 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 50
   meanFreePath:
-    m_OverrideState: 0
-    m_Value: 400
+    m_OverrideState: 1
+    m_Value: 385
     min: 1
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.9056604, g: 0.5675092, b: 0.15806337, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
