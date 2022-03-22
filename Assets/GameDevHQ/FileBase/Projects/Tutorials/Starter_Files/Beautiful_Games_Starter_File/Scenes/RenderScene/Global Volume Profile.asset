@@ -16,7 +16,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   quality:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 2
   rayTracing:
     m_OverrideState: 1
     m_Value: 0
@@ -27,12 +27,12 @@ MonoBehaviour:
     max: 4
   directLightingStrength:
     m_OverrideState: 1
-    m_Value: 0.61
+    m_Value: 0.92
     min: 0
     max: 1
   radius:
     m_OverrideState: 1
-    m_Value: 3.26
+    m_Value: 3.07
     min: 0.25
     max: 5
   spatialBilateralAggressiveness:
@@ -64,16 +64,16 @@ MonoBehaviour:
     min: 2
     max: 32
   m_FullResolution:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   m_MaximumRadiusInPixels:
     m_OverrideState: 1
-    m_Value: 32
+    m_Value: 40
     min: 16
     max: 256
   m_BilateralUpsample:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   m_DirectionCount:
     m_OverrideState: 1
     m_Value: 2
@@ -81,11 +81,11 @@ MonoBehaviour:
     max: 6
   m_RayLength:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 20
     min: 0.01
   m_SampleCount:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 8
     min: 1
     max: 64
   m_Denoise:
@@ -93,7 +93,7 @@ MonoBehaviour:
     m_Value: 1
   m_DenoiserRadius:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.65
     min: 0.001
     max: 1
 --- !u!114 &-2825425963530716695
@@ -233,14 +233,14 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   lift:
-    m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 0
+    m_Value: {x: 0.99365914, y: 0.987317, z: 1, w: 0}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0.24729519}
+    m_Value: {x: 1, y: 0.93658966, z: 0.7977777, w: 0.3863986}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0.21638326}
+    m_Value: {x: 0.5878248, y: 0.6350216, z: 1, w: 0.3554868}
 --- !u!114 &7843862897158304406
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -292,29 +292,29 @@ MonoBehaviour:
     m_Value: 2
   threshold:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 3.56
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.025
     min: 0
     max: 1
   scatter:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0
     min: 0
     max: 1
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 1
   dirtTexture:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {fileID: 0}
   dirtIntensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
     min: 0
   anamorphic:
